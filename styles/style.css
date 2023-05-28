@@ -1,0 +1,259 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lora', serif;
+}
+.full-width{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px;
+}
+.header{
+    background-color: black;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.main-section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.section-details{
+    color: white;
+    padding: 50px;
+}
+.section-title{
+    font-size: 3.5em;
+}
+.link-button{
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.link-button a{
+    color: white;
+    text-decoration: none;
+}
+#click{
+    background-color: crimson;
+}
+.link-button .fa-arrow-right{
+    margin-left: 10px;
+}
+.half-width img{
+    width: 100%;
+}
+.blogs-navigation{
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+    width: 25%;
+    height: 190px;
+    border-radius: 10px;
+    
+}
+.navigation-button{
+    display: flex;
+    flex-direction: column;
+}
+.navigation-button a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px 40px;
+    text-align: center;
+    background-color:white ;
+    border-radius: 5px;
+    
+}
+.blogs-details{
+    display: flex;
+    width:100%;
+}
+.tansfer-market{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 75%;
+}
+.transfer-details{
+    margin: 10px 0px;
+}
+.blogs{
+    margin: 50px 0px;
+}
+.blog{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.transfer-banner img{
+    width: 100%;
+}
+.transfer-button{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.transfer-duration{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.transfer-duration .icon{
+    margin-right: 10px;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer-title h1{
+    font-size: 3em;
+    text-align: center;
+}
+.footer-details{
+    padding: 100px;
+}
+hr{
+    border: 1px solid gray;
+}
+.footer-navigation{
+    display: flex;
+    justify-content: space-around;
+    margin:0px 100px ;
+    margin-top: 20px;
+}
+.footer-navigation a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+@media only screen and (max-width:576px){
+    .full-width{
+        margin: 10px ;
+    }
+    .header{
+        margin: 0;
+        padding: 0;
+    }
+    .section-details{
+        padding: 10px 0px;
+    }
+    .section-title{
+        padding: 0px;
+        margin: 0;
+        font-size: 25px;
+        text-align: center;
+    }
+    .short-text{
+        overflow: hidden;
+    }
+    .mini-mini{
+        width:250px ;
+        height: 60px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        text-align: center;
+    }
+    .link-button{
+        margin-left: 45px ;
+        padding:10px 30px;
+    }
+    .main-section{
+        padding: 0px 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .half-width img{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .blogs-details{
+        flex-direction: column;
+    }
+    .tansfer-market{
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        width: 100%;
+    }
+    .blogs-navigation{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height:auto ;
+        padding: 0;
+        margin: 0;
+        background-color: white;
+    }
+    .navigation-button a{
+        border: 1px solid gray;
+        margin: 5px ;
+    }
+    .footer-title h1{
+        font-size: 2em;
+    }
+    .footer-details{
+        padding: 20px 50px;
+    }
+    .footer-navigation{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-navigation a{
+        margin-top: 30px;
+    }
+
+}
+@media only screen and (min-width:577px) and (max-width:992px){
+    .full-width{
+        padding: 5px;
+        margin:0 ;
+    }
+    .section-details{
+        padding: 80px 30px;
+    }
+    .section-title{
+        font-size: 2em;
+        margin: 0;
+    }
+    .blogs-navigation{
+        width: 100%;
+        height:auto ;
+        padding: 0;
+        margin: 0;
+        background-color: white;
+    }
+    .navigation-button{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navigation-button a{
+        width: 30%;
+        border: 1px solid gray;
+        margin: 5px ;
+    }
+    .blogs-details{
+        flex-direction: column;
+    }
+    .tansfer-market{
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer-navigation{
+        margin: 20px 10px;
+        padding: 0;
+        flex-wrap: wrap;
+
+    }
+    .footer-navigation a{
+        margin:10px ;
+    }
+    .footer-details{
+        padding: 50px;
+    }
+}

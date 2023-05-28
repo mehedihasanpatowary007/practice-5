@@ -1,0 +1,106 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.upcoming-match{
+    display: flex;
+}
+.blogs-navigation{
+    background-color: black;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 10px 0px;
+    width: 20%;
+    height: 190px;
+    border-radius: 10px;
+}
+.navigation-button{
+    display: flex;
+    flex-direction: column;
+}
+.navigation-button a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px 40px;
+    text-align: center;
+    background-color:white ;
+    border-radius: 5px;
+}
+#match{
+    background-color: crimson;
+}
+.matchs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 80%;
+
+}
+.match{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+}
+.flag{
+    display: flex;
+    justify-content: space-around;
+}
+.flag img{
+    border-radius: 10px;
+}
+.flag p{
+    font-size: 20px;
+    font-weight: 700;
+}
+@media only screen and (max-width:576px) {
+    .upcoming-match{
+        flex-direction: column;
+    }
+    .matchs{
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        width: 100%;
+    }
+    .blogs-navigation{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height:auto ;
+        padding: 0;
+        margin: 0;
+        background-color: white;
+    }
+    .navigation-button a{
+        margin: 5px ;
+        border: 1px solid gray;
+    }
+}
+@media only screen and (min-width:577px) and (max-width:992px) {
+    .upcoming-match{
+        flex-direction: column;
+    }
+    .matchs{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        width: 100%;
+    }
+    .blogs-navigation{
+        width: 100%;
+        height:auto ;
+        padding: 0;
+        margin: 0;
+        background-color: white;
+    }
+    .navigation-button{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navigation-button a{
+        width: 30%;
+        border: 1px solid gray;
+        margin: 5px ;
+    }
+}
