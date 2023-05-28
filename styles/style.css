@@ -149,18 +149,13 @@ hr{
         font-size: 25px;
         text-align: center;
     }
-    .short-text{
-        overflow: hidden;
-    }
+
     .mini-mini{
-        width:250px ;
-        height: 60px;
-        text-overflow: ellipsis;
-        overflow: hidden;
         text-align: center;
+        font-size: 15px;
     }
     .link-button{
-        margin-left: 45px ;
+        margin-left: 30px ;
         padding:10px 30px;
     }
     .main-section{
