@@ -181,8 +181,7 @@ hr{
         font-size: 15px;
     }
     .link-button{
-        margin-left: 30px ;
-        padding:10px 30px;
+        margin-left: 50px ;
     }
     .main-section{
         padding: 0px 0px;
@@ -224,6 +223,8 @@ hr{
     .footer-navigation{
         flex-direction: column;
         align-items: center;
+        margin: 0;
+        padding: 0;
     }
     .footer-navigation a{
         margin-top: 30px;
