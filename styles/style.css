@@ -180,9 +180,9 @@ hr{
         text-align: center;
         font-size: 15px;
     }
-    .link-button{
+    /* .link-button{
         margin-left: 50px ;
-    }
+    } */
     .main-section{
         padding: 0px 0px;
         flex-direction: column;
